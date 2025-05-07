@@ -1,0 +1,33 @@
+.custom-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.custom-nav {
+    font-size: 18px;
+    gap: 30px;
+}
+
+.item {
+    color: #060257;
+    font-weight: 500;
+    font-size: 25px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 5px 30px;
+    border: 1px solid black;
+    background-color: #86b2f4;
+    margin: 0 5px;
+}
+
+.item:hover {
+    color: #0d6efd;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.navbar-light {
+    background-color: #f8f9fa !important;
+}
